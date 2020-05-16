@@ -1,0 +1,393 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{37}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Orszag}(1970)}]{orszag_1970}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Orszag}},\ }\href {\doibase 10.1017/S0022112070000642} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Fluid. Mech.}\ }\textbf {\bibinfo {volume} {41}},\
+  \bibinfo {pages} {363–386} (\bibinfo {year} {1970})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2012)\citenamefont
+  {Sengupta}, \citenamefont {Bhaumik},\ and\ \citenamefont
+  {Bhumkar}}]{Sengupta_et_al_8}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Bhaumik}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Y.~G.}\ \bibnamefont {Bhumkar}},\
+  }\href {\doibase 10.1103/PhysRevE.85.026308} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo
+  {pages} {026308} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2013)\citenamefont
+  {Sengupta}, \citenamefont {Bhole},\ and\ \citenamefont
+  {Sreejith}}]{SENGUPTA_et_al_9}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bhole}}, \
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Sreejith}},\ }\href
+  {\doibase https://doi.org/10.1016/j.compfluid.2013.08.007} {\bibfield
+  {journal} {\bibinfo  {journal} {Comput. Fluids}\ }\textbf {\bibinfo {volume}
+  {88}},\ \bibinfo {pages} {19 } (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sengupta}(2013)}]{sengupta2013high}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sengupta}},\ }\href
+  {http://services.cambridge.org/us/academic/subjects/mathematics/computational-science/high-accuracy-computing-methods-fluid-flows-and-wave-phenomena?format=HB&isbn=9781107023635}
+  {\emph {\bibinfo {title} {High accuracy computing methods: fluid flows and
+  wave phenomena}}}\ (\bibinfo  {publisher} {Cambridge University Press},\
+  \bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Charney}\ \emph {et~al.}(1950)\citenamefont
+  {Charney}, \citenamefont {Fjortoft},\ and\ \citenamefont
+  {Von~Neumann}}]{NEUMANN_at_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {Charney}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Fjortoft}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Von~Neumann}},\
+  }\href {\doibase 10.1111/j.2153-3490.1950.tb00336.x} {\bibfield  {journal}
+  {\bibinfo  {journal} {Tellus}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {237} (\bibinfo {year} {1950})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Trefethen}(1982)}]{Trefethen_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~N.}\ \bibnamefont
+  {Trefethen}},\ }\href {\doibase 10.1137/1024038} {\bibfield  {journal}
+  {\bibinfo  {journal} {SIAM Rev.}\ }\textbf {\bibinfo {volume} {24}},\
+  \bibinfo {pages} {113} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Strikwerda}(2004)}]{Strikwerda}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Strikwerda}},\ }\href {\doibase 10.1137/1.9780898717938} {\emph {\bibinfo
+  {title} {Finite Difference Schemes and Partial Differential Equations, Second
+  Edition}}}\ (\bibinfo  {publisher} {SIAM},\ \bibinfo {year}
+  {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gustafsson}\ \emph {et~al.}(1972)\citenamefont
+  {Gustafsson}, \citenamefont {Kreiss},\ and\ \citenamefont
+  {Sundström}}]{Gustafsson_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Gustafsson}}, \bibinfo {author} {\bibfnamefont {H.-O.}\ \bibnamefont
+  {Kreiss}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sundström}},\ }\href {http://www.jstor.org/stable/2005093} {\bibfield
+  {journal} {\bibinfo  {journal} {Math. Comput.}\ }\textbf {\bibinfo {volume}
+  {26}},\ \bibinfo {pages} {649} (\bibinfo {year} {1972})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Carpenter}\ \emph {et~al.}(1993)\citenamefont
+  {Carpenter}, \citenamefont {Gottlieb},\ and\ \citenamefont
+  {Abarbanel}}]{CARPENTER_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont
+  {Carpenter}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Gottlieb}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Abarbanel}},\
+  }\href {\doibase https://doi.org/10.1006/jcph.1993.1182} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume}
+  {108}},\ \bibinfo {pages} {272 } (\bibinfo {year} {1993})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zhong}(1998)}]{ZHONG}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Zhong}},\ }\href {\doibase https://doi.org/10.1006/jcph.1998.6010}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf
+  {\bibinfo {volume} {144}},\ \bibinfo {pages} {662 } (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2007)\citenamefont
+  {Sengupta}, \citenamefont {Dipankar},\ and\ \citenamefont
+  {Sagaut}}]{SENGUPTA_et_al_2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dipankar}},
+  \ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Sagaut}},\ }\href
+  {\doibase https://doi.org/10.1016/j.jcp.2007.06.001} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume} {226}},\
+  \bibinfo {pages} {1211 } (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ and\ \citenamefont
+  {Bhole}(2014)}]{SENGUPTA_et_al_3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bhole}},\ }\href {\doibase https://doi.org/10.1016/j.jcp.2014.02.021}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf
+  {\bibinfo {volume} {266}},\ \bibinfo {pages} {240 } (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}(2005)}]{chen2005finite}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Chen}},\ }\href {https://www.springer.com/gp/book/9783540240785} {\emph
+  {\bibinfo {title} {Finite element methods and their applications}}}\
+  (\bibinfo  {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
+  {2005})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Codina}(2019)}]{codina2019finite}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Codina}},\ }\href {https://www.scipedia.com/public/Codina_2019b} {\bibfield
+  {journal} {\bibinfo  {journal} {Monograph CIMNE}\ } (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Katsikadelis}(2002)}]{katsikadelis2002boundary}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {Katsikadelis}},\ }\href
+  {https://www.elsevier.com/books/boundary-elements-theory-and-applications/katsikadelis/978-0-08-044107-8}
+  {\emph {\bibinfo {title} {Boundary elements: theory and applications}}}\
+  (\bibinfo  {publisher} {Elsevier},\ \bibinfo {year} {2002})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Thongmoon}\ and\ \citenamefont
+  {McKibbin}(2006)}]{thongmoon2006comparison}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Thongmoon}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {McKibbin}},\ }\href {https://mro.massey.ac.nz/handle/10179/4485} {\bibfield
+  {journal} {\bibinfo  {journal} {Research Letters in the Information and
+  Mathematical Sciences}\ } (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Suman}\ \emph {et~al.}(2017)\citenamefont {Suman},
+  \citenamefont {Sengupta}, \citenamefont {Prasad}, \citenamefont {Mohan},\
+  and\ \citenamefont {Sanwalia}}]{SUMAN_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Suman}}, \bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont {Sengupta}},
+  \bibinfo {author} {\bibfnamefont {C.~J.~D.}\ \bibnamefont {Prasad}}, \bibinfo
+  {author} {\bibfnamefont {K.~S.}\ \bibnamefont {Mohan}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Sanwalia}},\ }\href {\doibase
+  https://doi.org/10.1016/j.compfluid.2017.04.009} {\bibfield  {journal}
+  {\bibinfo  {journal} {Comput. Fluids}\ }\textbf {\bibinfo {volume} {150}},\
+  \bibinfo {pages} {95} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2020)\citenamefont {Wang},
+  \citenamefont {Gu},\ and\ \citenamefont {Liu}}]{WANG}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Gu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liu}},\ }\href {\doibase
+  https://doi.org/10.1016/j.aml.2020.106226} {\bibfield  {journal} {\bibinfo
+  {journal} {Appl. Math. Lett.}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo
+  {pages} {106226} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ureña}\ \emph {et~al.}(2020)\citenamefont {Ureña},
+  \citenamefont {Gavete}, \citenamefont {Benito}, \citenamefont {García},\
+  and\ \citenamefont {Vargas}}]{URENA}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Ureña}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Gavete}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Benito}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {García}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Vargas}},\ }\href {\doibase
+  https://doi.org/10.1016/j.enganabound.2019.11.010} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eng. Anal. Bound. Elem.}\ }\textbf {\bibinfo {volume}
+  {112}},\ \bibinfo {pages} {13 } (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Prieto}\ \emph {et~al.}(2011)\citenamefont {Prieto},
+  \citenamefont {Muñoz},\ and\ \citenamefont {Corvinos}}]{PRIETO}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~U.}\ \bibnamefont
+  {Prieto}}, \bibinfo {author} {\bibfnamefont {J.~J.~B.}\ \bibnamefont
+  {Muñoz}}, \ and\ \bibinfo {author} {\bibfnamefont {L.~G.}\ \bibnamefont
+  {Corvinos}},\ }\href {\doibase https://doi.org/10.1016/j.cam.2010.05.026}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Appl. Math.}\ }\textbf
+  {\bibinfo {volume} {235}},\ \bibinfo {pages} {1849 } (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kusuma}\ \emph {et~al.}(2017)\citenamefont {Kusuma},
+  \citenamefont {Ribal}, \citenamefont {Mahie},\ and\ \citenamefont
+  {Aris}}]{Kusuma_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kusuma}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ribal}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Mahie}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Aris}},\ }\href {\doibase
+  10.17654/MS101081721} {\bibfield  {journal} {\bibinfo  {journal} {FJMS}\
+  }\textbf {\bibinfo {volume} {101}},\ \bibinfo {pages} {1721} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lele}(1992)}]{LELE1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
+  {Lele}},\ }\href {\doibase https://doi.org/10.1016/0021-9991(92)90324-R}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf
+  {\bibinfo {volume} {103}},\ \bibinfo {pages} {16 } (\bibinfo {year}
+  {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Laizet}\ and\ \citenamefont
+  {Lamballais}(2009)}]{Laizet_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Laizet}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Lamballais}},\ }\href {\doibase 10.1016/j.jcp.2009.05.010} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume}
+  {228}},\ \bibinfo {pages} {5989} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2003)\citenamefont
+  {Sengupta}, \citenamefont {Ganeriwal},\ and\ \citenamefont
+  {De}}]{SENGUPTA_et_al_1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Ganeriwal}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {De}},\ }\href
+  {\doibase https://doi.org/10.1016/j.jcp.2003.07.015} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume} {192}},\
+  \bibinfo {pages} {677 } (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pirozzoli}\ and\ \citenamefont
+  {Sengupta}(2019)}]{pirozzoli2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Pirozzoli}}\ and\ \bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}},\ }\href {https://www.springer.com/gp/book/9783030170110} {\emph
+  {\bibinfo {title} {High-Performance Computing of Big Data for Turbulence and
+  Combustion}}},\ Vol.\ \bibinfo {volume} {592}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {year} {2019})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2009)\citenamefont
+  {Sengupta}, \citenamefont {Lakshmanan},\ and\ \citenamefont
+  {Vijay}}]{SENGUPTA_Et_al_4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Lakshmanan}}, \ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vijay}},\ }\href {\doibase https://doi.org/10.1016/j.jcp.2009.01.003}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf
+  {\bibinfo {volume} {228}},\ \bibinfo {pages} {3048 } (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chu}\ and\ \citenamefont {Fan}(1998)}]{CHU_AND_FAN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Chu}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Fan}},\
+  }\href {\doibase https://doi.org/10.1006/jcph.1998.5899} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume}
+  {140}},\ \bibinfo {pages} {370 } (\bibinfo {year} {1998})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2007)\citenamefont {Zhou},
+  \citenamefont {Yao}, \citenamefont {He},\ and\ \citenamefont
+  {Shen}}]{ZHOU_ET_AL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Yao}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {He}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Shen}},\ }\href {\doibase
+  https://doi.org/10.1016/j.jcp.2007.09.008} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Comput. Phys}\ }\textbf {\bibinfo {volume} {227}},\ \bibinfo
+  {pages} {1306 } (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ \emph {et~al.}(2017)\citenamefont
+  {Sengupta}, \citenamefont {Sengupta},\ and\ \citenamefont
+  {Saurabh}}]{SENGUPTA_et_al_7}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sengupta}},
+  \ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Saurabh}},\ }\href
+  {\doibase https://doi.org/10.1016/j.amc.2017.01.026} {\bibfield  {journal}
+  {\bibinfo  {journal} {Appl. Math. Comput.}\ }\textbf {\bibinfo {volume}
+  {304}},\ \bibinfo {pages} {41 } (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bhaumik}\ \emph {et~al.}(2013)\citenamefont
+  {Bhaumik}, \citenamefont {Sengupta},\ and\ \citenamefont
+  {Sengupta}}]{BHAUMIK2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bhaumik}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sengupta}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Sengupta}},\ }\href
+  {\doibase https://doi.org/10.1016/j.compfluid.2013.04.007} {\bibfield
+  {journal} {\bibinfo  {journal} {Comput. Fluids}\ }\textbf {\bibinfo {volume}
+  {81}},\ \bibinfo {pages} {110 } (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ and\ \citenamefont
+  {Dipankar}(2004)}]{sengupta2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Dipankar}},\ }\href {\doibase
+  https://doi.org/10.1023/B:JOMP.0000030076.74896.d7} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Sci. Comput.}\ }\textbf {\bibinfo {volume} {21}},\
+  \bibinfo {pages} {225} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vichnevetsky}\ and\ \citenamefont
+  {Bowles}(1982)}]{Vichnevetsky_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Vichnevetsky}}\ and\ \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Bowles}},\ }\href {\doibase 10.1137/1.9781611970876} {\emph {\bibinfo
+  {title} {Fourier Analysis of Numerical Approximations of Hyperbolic
+  Equations}}}\ (\bibinfo  {publisher} {SIAM},\ \bibinfo {year}
+  {1982})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kreiss}\ and\ \citenamefont
+  {Oliger}(1972)}]{KREISS1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~O.}\ \bibnamefont
+  {Kreiss}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Oliger}},\ }\href {\doibase 10.1111/j.2153-3490.1972.tb01547.x} {\bibfield
+  {journal} {\bibinfo  {journal} {Tellus}\ }\textbf {\bibinfo {volume} {24}},\
+  \bibinfo {pages} {199} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Swartz}\ and\ \citenamefont
+  {Wendroff}(1974)}]{Swartz1974}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Swartz}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Wendroff}},\ }\href {\doibase 10.1137/0711076} {\bibfield  {journal}
+  {\bibinfo  {journal} {SIAM J. Numer. Anal.}\ }\textbf {\bibinfo {volume}
+  {11}},\ \bibinfo {pages} {979} (\bibinfo {year} {1974})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Vajjala}\ \emph {et~al.}(2020)\citenamefont
+  {Vajjala}, \citenamefont {Sengupta},\ and\ \citenamefont
+  {Mathur}}]{SVajjala2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Vajjala}}, \bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Mathur}},\ }\href {\doibase https://doi.org/10.1016/j.compfluid.2020.104479}
+  {\bibfield  {journal} {\bibinfo  {journal} {Comput. Fluids}\ }\textbf
+  {\bibinfo {volume} {201}},\ \bibinfo {pages} {104479} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cossu}\ and\ \citenamefont
+  {Loiseleux}(1998)}]{Cossu_et_al}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cossu}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Loiseleux}},\ }\href {\doibase 10.1006/jcph.1998.5990} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Comput. Phys.}\ }\textbf {\bibinfo {volume} {144}},\
+  \bibinfo {pages} {98–108} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sengupta}\ and\ \citenamefont
+  {Bhumkar}(2010)}]{SENGUPTA_et_al_10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Sengupta}}\ and\ \bibinfo {author} {\bibfnamefont {Y.~G.}\ \bibnamefont
+  {Bhumkar}},\ }\href {\doibase
+  https://doi.org/10.1016/j.compfluid.2010.06.014} {\bibfield  {journal}
+  {\bibinfo  {journal} {Comput. Fluids}\ }\textbf {\bibinfo {volume} {39}},\
+  \bibinfo {pages} {1848 } (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\end{thebibliography}%
